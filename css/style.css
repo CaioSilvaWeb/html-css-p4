@@ -1,0 +1,67 @@
+header  {
+    background-color: #14A7FF;
+}
+
+nav{
+    height: 150px;
+    max-width: 1500px;
+    margin: 0 auto;
+
+}
+
+.nav-item a {
+    margin-right: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+div.row{
+    width: 100%;
+}
+
+div.align{
+    display: flex;
+    justify-content: space-around;
+}
+div.align img{
+    cursor: pointer;
+}
+
+section#linha_colecoes{
+    margin-top: 70px;
+}
+
+section#produtos{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+}
+#produtos span{
+    color: #14A7FF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    color: #868787;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+section#havainas_tns{
+    margin-top: 80px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section#havainas_tns div.container{
+    margin: 0;
+    padding: 0;
+}
