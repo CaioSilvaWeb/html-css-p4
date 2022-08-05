@@ -60,8 +60,3 @@ section#havainas_tns{
     display: flex;
     flex-direction: column;
 }
-
-section#havainas_tns div.container{
-    margin: 0;
-    padding: 0;
-}
