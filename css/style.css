@@ -34,7 +34,6 @@ section#linha_colecoes{
 }
 
 section#produtos{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -53,10 +52,59 @@ p{
     font-size: 26px;
     font-weight: 600;
 }
-
-section#havainas_tns{
-    margin-top: 80px;
+section#havaianas_tns{
+    margin-top: 100px;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    background-color: #14a7ff;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
 }
+section#havaianas_tns h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #1a1a1e;
+    max-width: 500px;
+}
+
+section#havaianas_tns p{
+    color: #471a48;
+    font-size: 17px;
+    font-weight: 400;
+    max-width: 500px;
+}
+
+section#havaianas_tns button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #000081;
+    color: white;
+    font-weight: 900;
+}
+
+footer{
+    margin-top: 100px;
+}
+footer div.footerContato{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer div.footerContato p{
+    background-color: #14A7FF;
+    margin: 0;
+    margin-top: 100px;
+    padding: 15px 0 15px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
